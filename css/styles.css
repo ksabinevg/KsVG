@@ -6,6 +6,10 @@
     color: #FCD917;
 }
 
+.bluetext{
+    color: #075B92;
+}
+
 .tab {
     margin-left: 50px;
 }
@@ -73,6 +77,17 @@
     display: block;
     width: auto;
     height: 250px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.persona2 {
+    padding: 50px;
+    padding-top: 0px;
+    float: left;
+    display: block;
+    width: auto;
+    height: 322px;
     cursor: pointer;
     transition: 0.3s;
 }
