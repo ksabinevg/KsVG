@@ -1,0 +1,138 @@
+.navbar {
+    overflow: hidden;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: 62.5px;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #707070;
+    font: 22.5px "Roboto";
+    letter-spacing: 0px;
+    padding: 14px 16px;
+    padding-right: 45px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+.footer {
+    overflow: hidden;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    position: relative; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: 62.5px;
+    padding-top: 45px;
+}
+
+.connect {
+    float: left;
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: 30px 30px;
+    width: 85px;
+    padding-left: 47%;
+}
+
+.connect img {
+    width: 100%;
+}
+
+.mail {
+    padding-top: 8px;
+}
+
+h1 {
+    float: left;
+    color: #707070;
+    font: 25px "Roboto";
+    padding-left: 45px;
+}
+
+h2 {
+    float: right;
+    color: black;
+    font: 20.25px "Roboto";
+    padding-right: 45px;
+}
+
+.main {
+    margin-top: 62.5px;
+    width: 100%;
+}
+
+.full {
+    width: 100%;
+}
+
+.myGallery {
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 25%;
+    width: 50%;
+}
+
+.container {
+    position: relative;
+}
+
+.myGallery img {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .3s ease;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.prototype {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.next {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    width: 278.5px;
+    height: 66.5px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 50px;
+    text-align: center;
+    font: normal normal normal 14.762px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.next:hover {
+    cursor: pointer;
+    opacity: 1;
+}
