@@ -11,7 +11,7 @@
     float: right;
     display: block;
     color: #707070;
-    font: 22.5px "Roboto";
+    font: 22.5px "Roboto", "Helvetica", sans-serif;
     letter-spacing: 0px;
     padding: 14px 16px;
     padding-right: 45px;
@@ -52,14 +52,14 @@
 h1 {
     float: left;
     color: #707070;
-    font: 25px "Roboto";
+    font: 25px "Roboto", "Helvetica", sans-serif;
     padding-left: 45px;
 }
 
 h2 {
     float: right;
     color: black;
-    font: 20.25px "Roboto";
+    font: 20.25px "Roboto", "Helvetica", sans-serif;
     padding-right: 45px;
 }
 
